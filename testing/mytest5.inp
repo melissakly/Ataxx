@@ -1,0 +1,11 @@
+# Play both AI's against each other.
+java -ea ataxx.Main
+seed 2983847
+block b2
+block c3
+block c4
+auto red
+auto blue
+start
+@red...Red wins\.
+quit

@@ -1,0 +1,22 @@
+# Test of draw: this time, no extensions or captures are possible, just jumps.
+# Draw must be detected without an infinite loop according to the 25-move
+# rule, but we don't worry about the final position.
+java -ea ataxx.Main
+
+seed 3982912
+
+block a2
+block a3
+block b1
+block b2
+block b3
+block c2
+block c3
+block d1
+block d2
+block d3
+
+auto red
+start
+@red...Draw.
+quit

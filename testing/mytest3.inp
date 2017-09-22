@@ -1,0 +1,51 @@
+#Test AI's competence.
+
+java -ea ataxx.Main
+
+block b1
+block c1
+block d1
+block a2
+block c2
+block a3
+block b3
+block d7
+block a4
+block d6
+block b4
+block c4
+dump
+@<===
+@<  r X X X X X b
+@<  X - X X X - X
+@<  X X - - - X X
+@<  X X X - X X X
+@<  X X - - - X X
+@<  X - X X X - X
+@<  b X X X X X r
+@<===
+a7-b6
+g7-f6
+g1-f2
+a1-b2
+b6-c5
+f6-e5
+f2-e3
+b2-c3
+c5-d5
+c3-d3
+dump
+@<===
+@<  r X X X X X b
+@<  X r X X X b X
+@<  X X r r r X X
+@<  X X X - X X X
+@<  X X b b b X X
+@<  X b X X X r X
+@<  b X X X X X r
+@<===
+b6-d4
+auto red
+start
+@red...Red wins\.
+quit

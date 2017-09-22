@@ -1,0 +1,51 @@
+# Testing block placements, multiple moves, and dumps.
+java -ea ataxx.Main
+block a2
+block a3
+block a4
+block a5
+block a6
+block g2
+block g3
+block g4
+block g5
+g1-f2
+a1-b2
+dump
+@<===
+@<  r - - - - - b
+@<  X - - - - - X
+@<  X - - - - - X
+@<  X - - - - - X
+@<  X - - - - - X
+@<  X b - - - r X
+@<  b - - - - - r
+@<===
+f2-f4
+g7-f6
+a7-b6
+b2-c3
+b6-c5
+c3-d4
+dump
+@<===
+@<  r - - - - - b
+@<  X r - - - b X
+@<  X - b - - - X
+@<  X - - b - r X
+@<  X - b - - - X
+@<  X b - - - - X
+@<  b - - - - - r
+@<===
+f4-e4
+dump
+@<===
+@<  r - - - - - b
+@<  X r - - - b X
+@<  X - b - - - X
+@<  X - - r r r X
+@<  X - b - - - X
+@<  X b - - - - X
+@<  b - - - - - r
+@<===
+quit

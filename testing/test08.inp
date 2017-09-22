@@ -1,0 +1,19 @@
+# Same as test03, using the load command.
+java -ea ataxx.Main
+load staff-src/test08.in
+block b2
+block c3
+block c4
+a7-a6
+g7-f5
+dump
+@<===
+@<  r - - - - - -
+@<  r X - - - X -
+@<  - - X - X b -
+@<  - - X - X - -
+@<  - - X - X - -
+@<  - X - - - X -
+@<  b - - - - - r
+@<===
+quit

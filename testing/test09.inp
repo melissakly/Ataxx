@@ -1,0 +1,27 @@
+# Check that draw is detected (weird case: neither side makes any moves
+# because of blocks).
+java -ea ataxx.Main
+block a2
+block a3
+block a4
+block b1
+block b2
+block b3
+block b4
+block c1
+block c2
+block c3
+block c4
+start
+@<Draw.
+dump
+@<===
+@<  r X X - X X b
+@<  X X X - X X X
+@<  X X X - X X X
+@<  X X X - X X X
+@<  X X X - X X X
+@<  X X X - X X X
+@<  b X X - X X r
+@<===
+quit

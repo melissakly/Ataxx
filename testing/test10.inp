@@ -1,0 +1,16 @@
+java -ea ataxx.Main
+block c1
+a1-a2
+a4-a6
+pass
+dump
+@<===
+@<  r - X - X - b
+@<  - - - - - - -
+@<  - - - - - - -
+@<  - - - - - - -
+@<  - - - - - - -
+@<  - - - - - - -
+@<  b - X - X - r
+@<===
+quit
